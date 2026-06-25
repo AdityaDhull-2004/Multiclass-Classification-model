@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# LaTeX build artefacts (the final .pdf and .tex are kept)
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+
+# Local-only leftovers from the earlier ROOT development layout (never published).
+# These are anchored with a leading slash to the repo root, so the per-experiment
+# copies (experiment_*/docs, experiment_*/scripts, experiment_*/tests and the
+# vendored experiment_*/healthml) are NOT affected and ARE committed.
+/src/
+/docs/
+/scripts/
+/tests/
+/data/
+/outputs/
+/report/
+/requirements.txt
+reference report.pdf
+
+# OS / editor
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
